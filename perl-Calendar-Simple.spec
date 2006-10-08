@@ -6,6 +6,7 @@
 %define		pdir	Calendar
 %define		pnam	Simple
 Summary:	Calendar::Simple - Perl extension to create simple calendars
+Summary(pl):	Calendar::Simple - rozszerzenie Perla do tworzenia prostych kalendarzy
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.14
 Release:	1
@@ -22,6 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Perl extension to create simple calendars.
+
+%description -l pl
+Rozszerzenie Perla do tworzenia prostych kalendarzy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
