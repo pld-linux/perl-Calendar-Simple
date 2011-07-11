@@ -8,13 +8,13 @@
 Summary:	Calendar::Simple - Perl extension to create simple calendars
 Summary(pl.UTF-8):	Calendar::Simple - rozszerzenie Perla do tworzenia prostych kalendarzy
 Name:		perl-Calendar-Simple
-Version:	1.20
+Version:	1.21
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Calendar/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8f67dc77caba570339ada69b453b2a1d
+# Source0-md5:	8fbfe46c0a25d036ca100460fcd00223
 URL:		http://search.cpan.org/dist/Calendar-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
